@@ -2,279 +2,408 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Interface Task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head> 
+</head>
 <body>
-    <div class="keira">
-    <!-- header -->
-            <header>
-                <div class="keira_logo">
-                    <a href="#"><img src="images/keira-logo.png" alt=""></a>
-                </div>
-                <div class="keira_menu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Product</a></li>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="keira_menu_button" onclick="myFunction()">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                </div>
-            </header>
-
-        <!-- landing page -->
-        <!-- banner -->
-        <div class="keira_cont home">
-            <div class="keira_inner_cont">
-                <span class="keira_cont_name">i am siva sankaran</span>
-                <br>
-                <h1 >d<span id="word"></span></h1>
-                <div class="keira_work">
-                    <div class="keira_works">
-                        <span>MOROCCA</span><br>
-                        <span>Rabat - Casablanca <span>
-                        <br>
+    <header id="header">
+        <div class="header_inner">
+            <div class="logo">
+                <img src="images/Beej_Logo-01.png" alt="">
+            </div>
+            <nav id="navBar">
+                <ul>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">sustainability</a></li>
+                    <li><a href="#">shop</a></li>
+                </ul>
+            </nav>
+            <div class="menu_options">
+                <span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
+                <span><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+                <span><i class="fa fa-bars" id="menuBtn" aria-hidden="true"></i></span>
+            </div>
+        </div>
+        
+    </header>
+    <div class="bodyContainer">
+        <section class="banner">
+            <div class="banner_container">
+        
+                <h1><span>Some people talk about </span><span> Savings the world</span><span> Some act.</span></h1>
+            </div>
+        </section>
+        <section class="shop">
+            <div class="shop_container">
+                <div class="shop_header">
+                    <h1 class="container_title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <div class="shop_btn container_header_btn">
+                        <a href="#">Shop Now</a>
                     </div>
-                    <div class="keira_works">
-                        <span>USA</span><br>
-                        <span>Californie - Detroit<span>
-                        <br>
+                </div>
+                <div class="shop_images">
+                    <div class="shop_img">
+                        <img src="images/1.png" alt="">
                     </div>
-                    <div class="keira_works">
-                        <span>CANADA</span><br>
-                        <span>Delta - Greenwood<span>
-                        <br>
+                    <div class="shop_img">
+                        <img src="images/2.png" alt="">
+                    </div>
+                    <div class="shop_img">
+                        <img src="images/3.png" alt="">
+                    </div>
+                    <div class="shop_img">
+                        <img src="images/4.png" alt="">
+                    </div>
+                    <div class="shop_img">
+                        <img src="images/5.png" alt="">
+                    </div>
+                    <div class="shop_img">
+                        <img src="images/6.png" alt="">
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- about us -->
-        <div class="keira_about">
-            <div class="about_container">
-                <h1 class="cont_title about_title">about us</h1>
-                <div class="keira_inner_about">
-                    <div class="keira_about_image">
-                        <img src="images/about-1.jpg" alt="">
+        </section>
+        <section class="earth">
+            <div class="earth_container">
+                <div class="earth_header">
+                    <h1 class="container_title">
+                        From earth we came to her returneth
+                    </h1>
+                    <div class="container_header_btn earth_btn">
+                        <a href="#">Our Materials</a>
                     </div>
-                    <div class="keira_about_text">
-                        <h3>Hello, Im Razan Taylor</h3>
-                        <p>To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person,</p>
-                        <ul class="keira_about_percent">
-                            <li class="product">Product Design</li>
-                            <li class="ux">Ux Design</li>
-                            <li class="mobile">Mobile Design</li>
+                </div>
+                <div class="earth_cards">
+                        <div class="earth_card earth_card1">
+                            <div class="earth_card_inner">
+                                <div class="earth_card_left">
+                                    <div class="earth_img1">
+                                        <img src="images/circle.png" alt="">
+                                    </div>
+                                    <div class="earth_img2">
+                                        <img src="images/Group 9.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="earth_card_right">
+                                    <h2 class=" earth_card_title">
+                                        Khesh
+                                    </h2>
+                                    <p>Khesh is a traditional form of weaving that finds its root in the Bhirbum district of westbengal. The beauty about khesh is that no two materials look the same and only once the fabric is woven can it be appreciated in its full beauty</p>
+                                    
+                                    <a href="#" class="earth_card_btn">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="earth_card earth_card2">
+                            <div class="earth_card_inner">
+
+                                <div class="earth_card_left">
+                                    <div class="earth_img1">
+                                        <img src="images/Group 10.png" alt="">
+                                    </div>
+                                    <div class="earth_img2">
+                                        <img src="images/Hue_Saturation 10 copy 4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="earth_card_right">
+                                    <h2 class=" earth_card_title">
+                                        Eco Friendly Packaging
+                                    </h2>
+                                    <p>We have a strict plastic-free and zero waste packaging ploicy. Our products come in a jute bag and recyclable boxes. The product information card is made with seed paper which is reusable, and we recommand that you do!</p>
+                                    
+                                    <a href="#" class="earth_card_btn">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+            <div class="earth_slider_icons">
+                    <div class="earth_slider_icon_inner">
+                        <div class="earth_slider_icon earth_slider_icon_prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="earth_slider_icon earth_slider_icon_next">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    
+            </div>
+        </section>
+        <section class="clients">
+            <div class="client">
+                <img src="images/Layer 102.png" alt="">
+            </div>
+            <div class="client">
+                <img src="images/Layer 103.png" alt="">
+            </div>
+            <div class="client">
+                <img src="images/Layer 104.png  " alt="">
+            </div>
+            <div class="client">
+                <img src="images/Layer 105.png" alt="">
+            </div>
+            <div class="client">
+                <img src="images/Layer 106.png" alt="">
+            </div>
+        </section>
+        <section class="mindful">
+            <div class="mindful_container">
+                <div class="mindful_header">
+                    <h1 class="container_title">
+                        Consiousnes Mindfull Responsible Even when no one is watching
+                    </h1>
+                </div>
+                <div class="mindful_heading">
+                    <p>
+                        <b>Beej </b>is a metaphor for the origin of all creation. it symbolises to respect towards every life form and works as a guidelineprinciple of every business decision we make
+                    </p>
+                </div>
+                <div class="mindful_cards">
+                    <div class="mindful_card mindful_card1">
+                        <h2>Show me some love</h2>
+                        <p>
+                            Our deep commitment to being mindfull of the world to live in and its fats depleting resources reflects in every single material we work with. Every element of our product from the inner linnings to the zipper and even the packaging is sustainable in some from making it a 100% suitable supply chain
+                        </p>
+                        <div class="mindful_btn">
+                            <img src="images/Vector Smart Object2 copy 7.png" alt="">
+                            <a href="#">Our Plants +</a>
+                        </div>
+                    </div>
+                    <div class="mindful_card mindful_card2">
+                        <h2>the power of plenty</h2>
+                        <p>
+                            An empowered team with a common purpose fuels the passion we bring to our work Our team of artists has consiousness made a shift to the world of sustainable fashion and take pride in the contribution they are making individually we practice fair pay and demand the same of the partners we work with it.
+                        </p>
+                        <div class="mindful_btn">
+                            <img src="images/Vector Smart Object3.png" alt="">
+                            <a href="#">Our Plants +</a>
+                        </div>
+                    </div>
+                    <div class="mindful_card mindful_card3">
+                        <h2>birds of a feather</h2>
+                        <p>
+                            Right from the onset, it was important for us to collaborate with us with brands and partners that share the same value system as ours we only work with business that are consious of their practices and committed to sustainability both environmentally and socially environmentally and socially
+                        </p>
+                        <div class="mindful_btn">
+                            <img src="images/Vector Smart Object5.png" alt="">
+                            <a href="#">Our Plants +</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mindful_slider_icons">
+                    <div class="mindful_slider_icon_inner">
+                        <div class="mindful_slider_icon mindful_slider_icon_prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="mindful_slider_icon mindful_slider_icon_next">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+        <section class="living">
+            <div class="living_container">
+                <div class="living_header">
+                    <h1 class="container_title">
+                        Living upto earth - earth standard
+                    </h1>
+                    <div class="living_cards">
+                        <div class="living_card1 living_card">
+                            <img src="images/Group 11.png" alt="">
+                            <div class="living_card_inner living_card1_inner">
+                                <div><h2>Custom craft</h2></div>
+                                <p><span>Giving a sustainable craft to creatvie version</span></p>
+                            </div>
+                            <div class="living_add_icon">
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="living_card2 living_card">
+                            <img src="images/Group 12.png" alt="">
+                            <div class="living_card_inner living_card2_inner">
+                                <div><h2>Atelier</h2></div>
+                                <p><span>A Sustainable production unit to craft your next eco-consious collection</span></p>
+                            </div>
+                            <div class="living_add_icon">
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="living_card3 living_card">
+                            <img src="images/Group 13.png" alt="">
+                            <div class="living_card_inner living_card3_inner">
+                                <div><h2>Corporate gifting</h2></div>
+                                <p><span>When consious working translates to consious gifting</span></p>
+                            </div>
+                            <div class="living_add_icon">
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fashion">
+            <div class="fashion_header">
+                <h1 class="container_title">When Fasion made
+                    another statement</h1>
+                <div class="fashion_btn container_header_btn">
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+            <div class="fashion_cards">
+                <div class="fashion_card fashion_card1">
+                    <img src="images/Vector.png" alt="">
+                    <div class="fashion_desc">
+                        <p>5 Simple ways to get started with a more conscious way of living</p>
+                        <div class="fashion_add_icon">
+                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="fashion_card fashion_card2">
+                    <img src="images/Vector Image.png" alt="">
+                    <div class="fashion_desc">
+                        <p>Easy tips for a conscious closet</p>
+                        <div class="fashion_add_icon">
+                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="community">
+            
+            <div class="community_container">
+                <div class="community_content">
+                    <h1>Join the Beej Community</h1>
+                    <p>and explore the world of sustainablity, get updates on our collections, collaborations, and more!</p>
+                </div>
+                <div class="community_contact">
+                    <div class="community_email_container">
+                        <input type="email" placeholder="Email Address">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer_container">
+                <div class="footer_container1">
+                    <div class="navigate">
+                        <div class="footer_menu footer_menu1">
+                            <h3>Navigate</h3>
+                            <ul class="footer_parent_menu">
+                                <li>
+                                    <h3 href="#" id="navShop">Shop</h3>
+                                    <ul class="footer_sub_menu" id="navShopChild">
+                                        <li><a href="#">Our Planet</a></li>
+                                        <li><a href="#">Our People</a></li>
+                                        <li><a href="#">Our Partners</a></li>
+                                    </ul>
+                                </li>  
+                                <li>
+                                    <h3 href="#" id="navSustainablity">Sustainability</h3>
+                                    <ul class="footer_sub_menu active" id="navSustainablityChild">
+                                        <li><a href="#">Our Planet</a></li>
+                                        <li><a href="#">Our People</a></li>
+                                        <li><a href="#">Our Partners</a></li>
+                                        <li><a href="#">Green Story</a></li>
+                                        <li><a href="#">Certifications</a></li>
+                                    </ul>
+                                </li>                              
+                            </ul>
+                            <ul class="footer_parent_menu">
+                                <li>
+                                    <h3 href="#" id="navAbout">About</h3>
+                                    <ul class="footer_sub_menu" id="navAboutChild">
+                                        <li><a href="#">Our Story</a></li>
+                                        <li><a href="#">Our Story</a></li>
+                                        <li><a href="#">Our Philosophy</a></li>
+                                    </ul>
+                                </li>  
+                                <li>
+                                    <h3 href="#" id="navCustomCraft">Custom Craft</h3>
+                                    <ul class="footer_sub_menu" id="navCustomCraftChild">
+                                        <li><a href="#">Our Planet</a></li>
+                                        <li><a href="#">Our People</a></li>
+                                        <li><a href="#">Our Partners</a></li>
+                                    </ul>
+                                </li>    
+                                <li>
+                                    <h3 href="#" id="navGift">Corporate Gifts</h3>
+                                    <ul class="footer_sub_menu" id="navGiftChild">
+                                        <li><a href="#">Our Planet</a></li>
+                                        <li><a href="#">Our People</a></li>
+                                        <li><a href="#">Our Partners</a></li>
+                                    </ul>
+                                </li>                           
+                            </ul>
+                            <ul class="footer_parent_menu">
+                                <li>
+                                    <h3 href="#" id="navAetlier">Atelier</h3>
+                                    <ul class="footer_sub_menu" id="navAetlierChild">
+                                        <li><a href="#">Our Planet</a></li>
+                                        <li><a href="#">Our People</a></li>
+                                        <li><a href="#">Our Partners</a></li>
+                                    </ul>
+                                </li>  
+                                <li>
+                                    <h3 href="#" id="navJournal">Journal</h3>
+                                    <ul class="footer_sub_menu" id="navJournalChild">
+                                        <li><a href="#">Our Planet</a></li>
+                                        <li><a href="#">Our People</a></li>
+                                        <li><a href="#">Our Partners</a></li>
+                                    </ul>
+                                </li>  
+                                <li>
+                                    <h3 href="#" id="navPress">Press & Media</h3>
+                                    <ul class="footer_sub_menu" id="navPressChild">
+                                        <li><a href="#">Our Planet</a></li>
+                                        <li><a href="#">Our People</a></li>
+                                        <li><a href="#">Our Partners</a></li>
+                                    </ul>
+                                </li>                              
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="need_help">
+                        <h3>Need Help ?</h3>
+                        <ul class="footer_parent_menu">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
-                        <div class="keira_button">
-                            <div>
-                                <a class="keira_about_button " href="">Hire Me <i class="fa fa-angle-right"></i></a>
-                            </div>
+                    </div>
+                    <div class="social">
+                        <h3>Social</h3>
+                        <div class="social_icons">
+                            <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                    <div class="footer_logo">
+                        <div class="footer_logo">
+                            <img src="images/Beej_Logo-01.png" alt="">
                         </div>
                     </div>
                 </div>
-            </div>
-        </div> 
-
-        <!-- service -->
-        <div class="service">
-            <div class="service_container">
-                <h1 class="cont_title service_title">Service</h1>
-                <div class="service_inner">
-                    <div class="service1">
-                        <div>
-                            <img class="service1img" src="images/service_icon2.png" alt="">
-                            <h3>Branding</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-                    <div class="service2">
-                        <div>
-                            <img src="images/service_icon3.png" alt="">
-                            <h3>Movie</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-                    <div class="service3">
-                        <div>
-                            <img src="images/service_icon4.png" alt="">
-                            <h3>Marketing</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+                <div class="footer_container2">
+                    <p>All Right Reserved - 2020 Studio Beej</p>
+                    <p>Terms & Condition</p>
+                    <div>
+                        <img src="images/Made by ting.png" alt="">
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- projects -->
-        <div class="projects">
-            <div class="project_container">
-                <h1 class="cont_title project_title">Projects</h1>
-                <div class="project_inner">
-                    <div class="project-2">
-                        <div class="project1">
-                            <div class="shade"></div>
-                            <div class="project_text">
-                                <h3>Mackup Collection</h3>
-                                <span>Branding</span>                            
-                            </div>
-                        </div>
-                        <div class="project2">
-                            <div class="shade"></div>
-                            <div class="project_text">
-                                <h3>Mackup Collection</h3>
-                                <span>Branding</span>                            
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-3">
-                        <div class="project3">
-                            <div class="shade"></div>
-                            <div class="project_text">
-                                <h3>Mackup Collection</h3>
-                                <span>Branding</span>                            
-                            </div>
-                        </div>
-                        <div class="project4">
-                            <div class="shade"></div>
-                            <div class="project_text">
-                                <h3>Mackup Collection</h3>
-                                <span>Branding</span>                            
-                            </div>
-                        </div>
-                        <div class="project5">
-                            <div class="shade"></div>
-                            <div class="project_text">
-                                <h3>Mackup Collection</h3>
-                                <span>Branding</span>                            
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Resume -->
-        <div class="resumes">
-            <div class="resume_container">
-                <h1 class="cont_title resume_title">Resume</h1>
-                <div class="resume">
-                    <div class="resume1">
-                        <div class="resume1_cont">
-                            <div class="resumediv1"></div>
-                            <div class="resume1div"></div>
-                            <h2>Experience.</h2>
-                            <p>To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine.</p>
-                            <b class="resume1_name">Photo Agency Shutter</b>
-                            <span>Photographer-intern 2016–2017</span>
-                            <b>Studio e.Oliver</b>
-                            <span>Photographer-retoucher 2017–Present</span>
-                        </div>
-                    </div>
-                    <div class="resume2">
-                        <div class="resume2_cont">
-                            <div class="resumediv2"></div>
-                            <div class="resume2div"></div>
-                            <h2>Education.</h2>
-                            <p>To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine.</p>
-                            <b class="resume2_name">Photography School</b>
-                            <span>New York Film Academy 2010–2012</span>
-                            <b>Photography Universities</b>
-                            <span>Bloomfield Hills, MI 2013–2015</span>
-                        </div>
-                    </div>
-                    <div class="resume3">
-                        <div class="resume3_cont">
-                            <div class="resumediv3"></div>
-                            <div class="resume3div"></div>
-                            <h2>Equipment.</h2>
-                            <p>To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine.</p>
-                            <b class="resume3_name">Digital cameras</b>
-                            <span>Canon EOS 5D Mark IV Sony Alpha</span>
-                            <b>Video camera</b>
-                            <span>Sony AX53 4K Handycam</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- blog -->
-        <div class="blogs">
-            <div class="blog_container">
-                <h1 class="cont_title blog_title">Recent Blogs</h1>
-                <div class="blog">
-                    <div class="blog1">
-                        <div class="blog1_cont">
-                            <div class="blog1img"></div>
-                            <!-- <img src="images/4.jpg" alt=""> -->
-                            <div>
-                                <h3 >Ways to motive yourself</h3>
-                                <p>Ways To Motivate Yourself. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod …</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog2">
-                        <div class="blog2_cont">
-                            <div class="blog2img"></div>
-                            <!-- <img src="images/5.jpg" alt=""> -->
-                            <div>
-                                <h3>create a wordpress theme</h3>
-                                <p>Ways To Motivate Yourself. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod …</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog3">
-                        <div class="blog3_cont">
-                            <div class="blog3img"></div>
-                            <!-- <img src="images/6.jpg" alt=""> -->
-                            <div>
-                                <h3>top graphic design topics</h3>
-                                <p>Ways To Motivate Yourself. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod …</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- contact -->
-        <footer class="contacts">
-            <div class="contact_container"> 
-                <h1 class="cont_title contact_title">Get In Touch</h1>
-                <div class="contact">
-                    <div class="contact1">
-                        <h3>EMAIL</h3>
-                        <span>example@xyz.com</span><br>
-                        <span>siva121435@gmail.com</span>
-                        <h3>CALL US</h3>
-                        <span>+91 9600970394</span><br>
-                        <span>+91 6379554283</span>
-                        <h3>ADDRESS</h3>
-                        <span>334 Bharathi Nagar South Viravanallur, Tirunelveli - 627426</span>
-                    </div>
-                    <div class="contact2">
-                        <div>
-                            <input type="text" placeholder="User Name">
-                            <input type="email" placeholder="Email">
-                            <input type="text" placeholder="Number">
-                        </div>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Message..."></textarea>
-                        <a href="">Send Message</a>
-                    </div>
-                </div> 
-            </div>   
         </footer>
-        <!-- keira end -->
     </div>
+
     <script src="js/script.js"></script>
 </body>
-</html> 
+</html>
